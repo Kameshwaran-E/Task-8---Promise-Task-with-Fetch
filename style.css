@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&family=Montserrat:wght@400;700&family=Poppins:wght@400;500&family=Raleway:wght@400;500;600;800&family=Roboto:wght@400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+}
+body {
+  background-color: rgba(242, 241, 248, 0.883) !important;
+}
+.header {
+  display: grid;
+  place-items: center;
+}
+.header img {
+  width: 210px;
+}
+.header h4 {
+  font-size: 26px;
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 600;
+}
+.header span {
+  color: rgb(241, 46, 46);
+}
+
+#all {
+  background-color: blue;
+  color: white;
+}
+.menus ul li button:hover {
+  background-color: blue;
+  color: white;
+}
+#country {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.country {
+  width: 400px;
+  height: auto;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 18px;
+}
+.country h5 {
+  font-weight: 600;
+}
+.country img {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.country span {
+  font-weight: 600;
+}
+#spinner{
+  display: none;
+}
+marquee{
+    font-size: 30px;
+}
